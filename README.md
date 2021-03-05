@@ -20,3 +20,4 @@ goreleaser --snapshot --skip-publish --rm-dist
 ~~~
 
 My requirement was to deploy to a Raspberry Pi. You'll need to change the build [configuration](.goreleaser.yml) and modify the [service file](debian/scripts/systemd/test-foo.service) for other architectures.
+
